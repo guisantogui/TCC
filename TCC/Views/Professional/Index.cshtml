@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Profissional";
+}
+
+<h2>Profissional</h2>
+
+
+@using (Html.BeginForm("Sum", "Professional"))
+{
+
+    <input name="nro1" type="number" class="form-control marged_top" placeholder="Numero 1" />
+    <input name="nro2" type="number" class="form-control marged_top" placeholder="Numero 2" />
+
+
+    <button name="Sum" value="Sum" class="btn btn-default" type="submit">
+        Sum
+    </button>
+
+}
+

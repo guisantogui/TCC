@@ -1,0 +1,63 @@
+﻿<div class="row">
+    <div class="col-md-9">
+        <h1>Emprego Esperto</h1>
+        <p class="lead">Está pronto para começar a procurar ou oferecer serviços? É <span class="green-italic">free</span>. Registre-se <span class="glyphicon glyphicon-share-alt"></span> </p>
+        
+    </div>
+    <div class="col-md-3">
+        <form>
+            <div class="form-group">
+                <p class="h4"> Ainda não tem usuário? Demorou! Cadastre-se!</p>
+                <input type="text" class="form-control marged_top" placeholder="Nome Completo" />
+                <input type="text" class="form-control marged_top" placeholder="Endereço de e-mail" />
+
+                @*Escolher qual tipo de campo de data será utilizado datepicker ou masked field, se sobrar tempo fazer merge das duas*@
+                 
+                <input type="text" class="form-control marged_top datepicker" placeholder="Data de nascimento">
+
+                @*<input type="text" class="form-control marged_top date" placeholder="Data de nascimento" />*@
+                
+                <div class="row">
+                    <div class="col-md-8 nopading-right">
+                        <p>
+
+                            <div class="btn-group" data-toggle="buttons">
+
+                                <label class="btn btn-default">
+                                    <input type="radio" name="genre" id="Masculino"> Masculino
+                                </label>
+
+                                <label class="btn btn-default">
+                                    <input type="radio" name="genre" id="Feminino"> Feminino
+                                </label>
+
+                            </div>
+
+                        </p>
+                        <p>
+                            <div class="btn-group" data-toggle="buttons">
+
+                                <label class="btn btn-default">
+                                    <input type="radio" name="kind" id="Cliente"> Cliente
+                                </label>
+
+                                <label class="btn btn-default">
+                                    <input type="radio" name="kind" id="Profissional"> Profissional
+                                </label>
+
+                            </div>
+
+                        </p>
+                    </div>
+                    <div class="col-md-1 nopading-left">
+                        <button name="register" type="submit" class="btn btn-success high-heigt">Registrar</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button name="registerusingfacebook" type="submit" class="form-control btn btn-primary">Registrar com o Facebook!</button>
+            </div>
+            
+        </form>
+    </div>
+</div>
